@@ -1,0 +1,379 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: normal normal 14px Montserrat;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.top-ber {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-ber-left ul,
+.top-ber-right ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.top-ber-left ul li,
+.top-ber-right ul li {
+    padding: 10px;
+}
+
+.top-ber-left ul li a,
+.top-ber-right ul li a {
+    color: #171347;
+    text-decoration: none;
+}
+
+.top-ber-right ul li a:hover {
+    background: #1634c5;
+    color: #f1f1f5;
+    padding: 8px 10px;
+    border-radius: 7px;
+}
+
+.main-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.navigation ul li {
+    padding: 10px;
+}
+
+.navigation ul li a {
+    color: #171347;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navigation ul li a:hover {
+    color: #19B1FF;
+}
+
+.nav-btn a {
+    background: #19B1FF;
+    padding: 12px 20px;
+    color: white ! important;
+    border-radius: 5px;
+}
+
+ul.sub-menu {
+    display: block;
+    position: absolute;
+    background: #fff;
+    width: 200px;
+    left: 0;
+    top: 50px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: .3s all;
+}
+
+li.submenu-wrapp-service {
+    position: relative;
+}
+
+.navigation ul li:hover ul {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+ul.sub-menu {
+    transform: translateY(20px);
+}
+
+header#header {
+    overflow-x: hidden;
+    background-image: url(https://2.bp.blogspot.com/-vP0Gw2t3qoM/X1UuU34fQII/AAAAAAAABmE/F00KZRFp-EgXVmlqC4cn6GZolOR0073PgCK4BGAYYCw/s1600/img-bg-07.png);
+    background-position: top right;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    padding-bottom: 190px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hero-sec-left {
+    margin-top: 40px;
+    flex: 1;
+}
+
+.hero-sec-right {
+    flex: 1;
+}
+
+.hero-sec-right img {
+    max-width: 135%;
+}
+
+.hero-welcome p {
+    background: #19B1FF;
+    width: fit-content;
+    padding: 7px 15px;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.hero-sec-left h1 {
+    font-size: 64px;
+    color: #171547;
+    line-height: 1.3;
+}
+
+.hero-sec-left .welcome-text {
+    font-size: 24px;
+    font-weight: 400;
+    color: #171547;
+}
+
+.hero ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+li.btn-1 a {
+    text-decoration: none;
+    background: #19b1ff;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: 900;
+    font-size: 18px
+}
+
+li.btn-2 a {
+    text-decoration: none;
+    padding-left: 30px;
+    font-weight: 900;
+    font-size: 18px
+}
+
+li.btn-2 a:hover {
+    box-shadow: 0px 9px 25px 0px #e0e9ef;
+}
+
+li.btn-2 {
+    transition: .3s all;
+}
+
+li.btn-1 {
+    transform: translateY(5px);
+    transition: .3s all ease-in-out;
+}
+
+li.btn-1:hover {
+    transform: translateY(0px);
+}
+
+li.btn-2 {
+    transform: translateY(5px);
+    transition: .3s all ease-in-out;
+}
+
+li.btn-2:hover {
+    transform: translateY(0px);
+}
+
+
+/* header end */
+
+.sec-name p {
+    background: #19B1FF;
+    width: fit-content;
+    padding: 7px 15px;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.service-section-left h1 {
+    font-size: 55px;
+}
+
+.service-section-left h1 {
+    font-size: 55px;
+}
+
+.service-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.service-section-left {
+    flex: 1;
+}
+
+.service-section-right {
+    flex: 1;
+}
+
+p.service-des {
+    font-size: 24px;
+    line-height: 2;
+}
+
+.service-section-right ul {
+    display: flex;
+    list-style: none;
+}
+
+.sec-name {
+    padding-bottom: 25px;
+}
+
+.section-box-wrapper {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+}
+
+.section-box-item {
+    flex: 1;
+    background: #fff;
+    margin: 10px;
+    padding: 75px 43px;
+    box-shadow: 0px 9px 25px 0px #dadee0;
+    border-radius: 10px;
+    border-radius: 10px;
+    transition: .3s ease-in-out;
+}
+
+.section-box-item:hover {
+    transform: translateY(-5px);
+}
+
+.section-box-item h1 {
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+.section-box-item p {
+    line-height: 1.5;
+}
+
+section#section {
+    background-image: url(https://3.bp.blogspot.com/-8melPurFKSA/X1UnzuQ5nDI/AAAAAAAABlY/K8d6dGYRjpE39vDwxBloZNToNmlXVE-ywCK4BGAYYCw/s1600/img-bg-02.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 110px;
+    padding-bottom: 108px;
+}
+
+.marketing-first-sec-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.marketing-sec-left {
+    flex: 1;
+}
+
+.marketing-sec-right {
+    flex: 1;
+    margin-top: 70px;
+}
+
+.marketing-sec-left img {
+    max-width: 100%;
+}
+
+.marketing-sec-name p {
+    background: #19B1FF;
+    width: fit-content;
+    padding: 7px 15px;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.marketing-sec-right h1 {
+    font-size: 57px;
+    color: #171547;
+    line-height: 1;
+}
+
+p.marketing-des {
+    font-size: 24px;
+    font-weight: 400;
+    color: #171547;
+    margin-top: 35px;
+}
+
+.marketing-sec-btn a {
+    text-decoration: none;
+    background: #19b1ff;
+    color: white;
+    padding: 18px 41px;
+    border-radius: 7px;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.marketing-sec-btn {
+    margin-top: 42px;
+}
+
+p.marketing-des {
+    font-size: 24px;
+    font-weight: 400;
+    color: #171547;
+    margin-top: 35px;
+}
+
+.marketing-sec-btn a {
+    text-decoration: none;
+    background: #19b1ff;
+    color: white;
+    padding: 18px 41px;
+    border-radius: 7px;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.marketing-sec-btn {
+    margin-top: 42px;
+}
+
+.marketing-sec-name {
+    margin-bottom: 20px;
+}

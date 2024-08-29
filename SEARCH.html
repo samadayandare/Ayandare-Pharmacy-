@@ -1,0 +1,111 @@
+<link rel="stylesheet" type="text/css" href="srong.css"><header>
+   <div class="logo">
+     <i class="ion-ionic logo__icon"></i>
+  </div>
+  <nav>
+     <div class="search-bar">
+       <form class="search">
+         <input type="search" class="search__input" name="search" placeholder="Search medicine" onload="equalWidth()" required>
+         <button class="search__btn">Search</button>
+         <i class="ion-ios-search search__icon"></i>
+       </form>
+       <div class="suggestion">
+         <div class="suggestion__content">
+           <div class="suggestion__content-left-side">
+            <h5>Popular Categories</h5>
+            <ul>
+              <li>Marketing Material</li>
+              <li>Just Sold</li>
+              <li>Small Business Card</li>
+              <li>Mailing</li>
+              <li>Just List</li>
+            <ul>  
+           </div>
+           <div class="suggestion__content-right-side">
+            <h5>Popular Keywords</h5>
+            <ul>
+              <li>Business Card</li>
+              <li>Brochures</li>
+              <li>Just List Just Sold</li>
+              <li>Flyers</li>
+            </ul>   
+           </div>
+         </div>  
+       </div>  
+    </div>  
+  </nav>
+  <div class="menu">
+    <i class="ion-drag menu__icon"></i>
+  </div>  
+</header>
+    
+<div class="message" style="display: none">
+  <p>Search with suggestion is supported for devices with width larger than 600px. You can click on the search icon to show the search bar.</p>
+</div> 
+<style>
+/* The container */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+</style>
+<body>
+
